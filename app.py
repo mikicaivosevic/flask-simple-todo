@@ -22,7 +22,6 @@ class Task(db.Model):
         return '<Content %s>' % self.content
 
 
-db.drop_all()
 db.create_all()
 
 

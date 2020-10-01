@@ -70,4 +70,5 @@ def resolve_task(task_id):
 
 
 if __name__ == '__main__':
-    app.run()
+    # allows to run it on local network
+    app.run(host='0.0.0.0',port=80)
